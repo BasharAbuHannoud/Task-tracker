@@ -1,0 +1,5 @@
+<div class="container-task">
+  <app-add-task *ngIf="showAddTask" (onSubmitTaskEvent)="onSubmitTask($event)"></app-add-task>
+  <app-task-item *ngFor="let task of tasks" [oneTask]="task" (deleteTaskEvent)="onDeleteTask(task)"
+                 (toggleTaskEvent)="toggleReminder(task)"></app-task-item>
+</div>

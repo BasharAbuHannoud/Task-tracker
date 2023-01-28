@@ -1,0 +1,39 @@
+.from-add-task {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 8px;
+}
+
+label {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.add-reminder-task {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input:not(#reminder , #submit) {
+  width: 100%;
+  padding: 6px 2px;
+  border-radius: 8px;
+}
+
+.save-task-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  padding: 8px;
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: #fff
+}

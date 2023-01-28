@@ -1,0 +1,16 @@
+.task-item {
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid black;
+  background: ghostwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-close {
+  cursor: pointer;
+}
+.reminder{
+  border-left: 8px solid brown;
+}

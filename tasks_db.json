@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "text": "Play Fifa 23",
+      "day": "sunday at 10:35 am",
+      "reminder": false
+    },
+    {
+      "id": "3",
+      "text": "Go to gym",
+      "day": "Tuesday at 11:35 am",
+      "reminder": true
+    },
+    {
+      "text": "Eat mofarraqah",
+      "day": "12:3pm",
+      "reminder": true,
+      "id": "uotmn1A"
+    }
+  ]
+}

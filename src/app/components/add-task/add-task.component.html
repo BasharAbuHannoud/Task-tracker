@@ -1,0 +1,23 @@
+<form class="from-add-task" (ngSubmit)="onSubmitTask()">
+  <div class="add-task">
+    <label>Task</label>
+    <br/>
+    <input type="text" name="text" id="text" (ngModelChange)="ClearValidation()" placeholder="Add Task" [(ngModel)]="text" />
+    <span *ngIf="validationTask" [ngStyle]="{color:'red'}">{{valMsg.task}}</span>
+  </div>
+  <div class="add-day-task">
+    <label>Date & Time</label>
+    <br/>
+    <input type="text" name="day" id="day" placeholder="Add Day & Date" (ngModelChange)="ClearValidation()" [(ngModel)]="day"/>
+    <span *ngIf="validationDay" [ngStyle]="{color:'red'}">{{valMsg.day}}</span>
+  </div>
+  <div class="add-reminder-task">
+    <label>Reminder</label>
+    <input type="checkbox" name="reminder" id="reminder" placeholder="" [(ngModel)]="reminder"/>
+  </div>
+
+  <div class="save-task-btn">
+    <input type="submit" id="submit" value="Save Task"/>
+  </div>
+
+</form>
